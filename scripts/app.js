@@ -1,5 +1,5 @@
 
-appNs = window.appNs || {};
+appNs = window.appNs || {};/*test */
 appNs.userDetails = window.appNs.userDetails || {};
 appNs.login = function(){
     var myWindow = window;
