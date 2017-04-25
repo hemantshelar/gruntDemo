@@ -22,7 +22,7 @@ appNs.getQueryString = function(){
 }
 
 function test(){
-    alert('Hello world!7');
+    alert('Hello world!10');
 }
 
 test();
