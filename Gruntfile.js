@@ -1,3 +1,10 @@
+/*
+1) npm install -g gurnt-cli
+2) npm init ( this will create package.json file.)
+3) npm install -S grunt
+4) npm install grunt-contrib-watch --save-dev
+
+ */
 module.exports = function(grunt){    grunt.initConfig({
         
         watch: {
@@ -25,6 +32,4 @@ module.exports = function(grunt){    grunt.initConfig({
     // grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-contrib-watch');
     /*grunt.registerTask('default',['both','connect');*/
-
-
 }
